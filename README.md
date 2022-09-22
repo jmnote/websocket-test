@@ -1,10 +1,10 @@
-# web-socket-test
+# websocket-test
 Docker-image for WebSocket connectivity test.
 
 ## How to
 ### Start contaienr
 ```bash
-$ docker run -p 8010:8010 --name web-socket-test ksdn117/web-socket-test
+$ docker run -d -p 8010:8010 --name websocket-test jmnote/websocket-test
 ```
 
 ### Connect to container with WebSocket
